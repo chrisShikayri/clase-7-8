@@ -1,13 +1,16 @@
 POST http://127.0.0.1:3000/auth/register
 Content-Type: application/json
 
+
 {
     "name": "prueba",
     "email": "cdj.jimenez@yavirac.edu.ec",
     "password":"123456"
 }
 
+
 ### login sin conexion a BDD
+
 
 POST http://127.0.0.1:3000/auth/login
 Content-Type: application/json
@@ -18,7 +21,9 @@ Content-Type: application/json
     "password":"1234567"
 }
 
+
 ### users
+
 
 GET http://127.0.0.1:3000/users
 Authorization: Bearer eyJhbGci=iJIUzI1NiIsInR5cCIkpXVCJ9.eyJl
