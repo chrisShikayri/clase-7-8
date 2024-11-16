@@ -3,7 +3,7 @@ Content-Type: application/json
 
 {
     "name": "prueba",
-    "email": "rp@hm.com",
+    "email": "cdj.jimenez@yavirac.edu.ec",
     "password":"123456"
 }
 
@@ -14,7 +14,7 @@ Content-Type: application/json
 
 {
     "name":"prueba2",
-    "email":"rp2@hm.com",
+    "email":"cdj.jimenez@yavirac.edu.ec",
     "password":"1234567"
 }
 

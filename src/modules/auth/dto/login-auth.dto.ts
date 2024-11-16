@@ -5,8 +5,8 @@ export class LoginAuthDto implements User{
     @IsNotEmpty()
     @IsEmail()
     email: string;
-    @MinLength(6)
-    @MaxLength(25)
+    @MinLength(46)
+    @MaxLength(50)
     @IsNotEmpty()
     password: string;
 }
